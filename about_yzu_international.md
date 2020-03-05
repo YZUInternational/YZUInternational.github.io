@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About Yangzhou University(YZU) International
+title: About YZU_International
 subtitle: Why the YZU international is a great platform for you
 ---
-# The YZU internation Center
+## The Yangzhou University international Center
 - This is a platform purely made for the students and by the students.
 - This is a platform initially made for international students in the school of information engineering in Yangzhou Univerisity.
-- This platform is organized by the international communication center('海外交流部' in Chinese) in the school of information engineering, which is a center leading by teacher Fan and joined by many students in Yangzhou University, aiming to help the international students better suited to the campus life and experiences more about Chinese culture. 
+- This platform is organized by the international communication center('海外交流部' in Chinese) in the school of information engineering, which is a center leading by teacher Fan and joined by many students in Yangzhou University, aiming to help the international students better accomodated to the campus life and experiences more about Chinese culture. 
 
 ## Members of the international center
 - Guishuang Xv - president
