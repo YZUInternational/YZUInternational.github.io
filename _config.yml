@@ -20,7 +20,7 @@ description: A site for the international students in YZU
 
 # List of links in the navigation bar
 navbar-links:
-  About Site: "aboutme"
+  About Site: "about_yzu_international"
   News: 
   People:
   Events:
