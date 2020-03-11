@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About YZU_International
+title: About YZUInternational
 subtitle: Why the YZU international is a great platform for you
 ---
 ## The Yangzhou University international Center
@@ -18,7 +18,7 @@ subtitle: Why the YZU international is a great platform for you
 - Zicheng He
 - Lu Xv
 - Fengyi Chen
-- Siyi Zhao
+- Siqi Zhao
 - Haonan Chen
 
 ## Contributors for this website
