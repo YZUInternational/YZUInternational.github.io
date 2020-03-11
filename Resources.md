@@ -1,5 +1,5 @@
 ---
-title: Page
+title: Resources
 subtitle: Great Resources for any international students
 ---
 
