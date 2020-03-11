@@ -1,6 +1,11 @@
 # YZU International 
+## For Contributors
+- As claimed in the "About site" part, we welcome any people, no matter you are a student or you are a teacher, no matter you are international students or regualar students in YZU to contribute to our website.
+- For developer who wants to use ways like pull requests, it is welcomed and it is as easy as doing a simple pull requests and we will check and update as quickly as possible.
+- For people who are fear of doing the staff above, it is also welcomed to write letters to us. Write about the latest news or something you want to share, email us at zhouzhouhi@qq.com. We also plan to build a wechat official account platform and there is hopefully to be a new way to submit articles.
+- The propagdating job is currently done only by us, that is, students working for the international center. It is welcomed for any form of support for our work.
 
-### Table of contents
+## Table of contents
 - [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
 - [Features](#features)
 - [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
