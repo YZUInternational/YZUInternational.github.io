@@ -1,7 +1,6 @@
 # YZU International 
 
 ### Table of contents
-- [Customize your website settings] (#customize your website settings)
 - [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
 - [Features](#features)
 - [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
@@ -10,23 +9,9 @@
 - [FAQ and support](#faq-and-support)
 - [Credits and contributions](#credits)
 
-### 3. Customize your website settings
-
-Edit the `_config.yml` file to change all the settings to reflect your site. To edit the file, click on it and then click on the pencil icon (watch the video tutorial above if you're confused).  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further. Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
-
-Another way to edit the config file (or any other file) is to use [prose.io](https://prose.io/), which is just a simple interface to allow you to more intuitively edit files or add new files to your project.
-
-After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so.
-
 ## Add your own content
 
-To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write markdown than HTML, so I suggest you do that (use the [tutorial I mentioned above](https://markdowntutorial.com/) if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
-
-In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
-
-Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
-
-As mentioned previously, you can use [prose.io](https://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
+use markdown file or html file
 
 ## Last important thing: YAML front matter ("parameters" for a page)
 
@@ -129,83 +114,7 @@ gh-badge  | Select which GitHub buttons to display, available options are: [star
 ### Advanced features (including how to use a custom URL address for your site)
 
 I wrote [a blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
-
-## Creating a User Page vs a Project Page
-
-If you're not sure what the difference is, you can probably safely ignore this section.
-
-If you want to use this theme to host a website that will be available at `https://YOURUSERNAME.github.io`, then you do not need to read this section. That is called a User Page, you can only have one User Page in your GitHub account, and it is what you get by default when forking this project.
-
-If you want to use this theme to create a website for a particular repository, it will be available at `https://YOURUSERNAME.github.io/PROJECTNAME`, and that is called a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/). You can have a Project Page for any repository you have on GitHub.
-
-**When using this theme for a Project Page, by default your website will be served from the `gh-pages` branch**, so you must take the following steps: 
-
-1. [Delete the existing `gh-pages` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch)
-
-2. [Create a new branch named `gh-pages` from the `master` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#creating-a-branch)
-
-Alternatively, instead of the above two steps, you can opt to use the `master` branch instead of `gh-pages` branch as your website's source by choosing that option in the main Settings page. 
-
-## Showcased users (success stories!)
-
-To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months alone! Here is a hand-picked selection of some websites that use Beautiful Jekyll.
-
-Want your website featured here? [Contact me](https://deanattali.com/aboutme#contact) to let me know about your website.
-
-### Project/company websites
-
-| Website | Description |
-| :------ |:----------- |
-| [repidemicsconsortium.org/](https://www.repidemicsconsortium.org/) | R Epidemics Consortium |
-| [vaccineimpact.org](https://www.vaccineimpact.org/) | Vaccine Impact Modelling Consortium |
-| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
-| [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
-| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
-| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
-| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
-| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
-| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
-| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
-| [guitarlessons.org](https://www.guitarlessons.org/) | Free online guitar lessons for all |
-| [terremotocentroitalia.info](https://www.terremotocentroitalia.info/) | Information about the 2016 Italy earthquake |
-
-
-## Advanced: Local development using Docker
-
-Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps set that up with Docker:
-
-1. Make sure you have [Docker](https://www.docker.com/) installed.
-
-2. Clone your repository locally.
-
-    ```bash
-    git clone https://github.com/<your_username>/<your_username>.github.io.git
-    ```
-
-3. Run the following shell commands to build the docker image and start the container for the first time:
-
-    ```bash
-    cd <repository_folder>
-    docker build -t beautiful-jekyll "$PWD"
-    docker run -d -p 4000:4000 --name beautiful-jekyll -v "$PWD":/srv/jekyll beautiful-jekyll
-    ```
-
-
-Now that Docker is set up, you do not need to run the above steps again. You can now view your website at http://localhost:4000/. You can start the container again in the future with:
-
-```bash
-docker start beautiful-jekyll
-```
-
-And you can stop the server with:
-
-```bash
-docker stop beautiful-jekyll
-```
-
-Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
-
-Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!
+This website is great and have many features that I referred to when I develop the YZUInternational.github.io [repidemicsconsortium.org/](https://www.repidemicsconsortium.org/) R Epidemics Consortium
 
 ## FAQ and support
 
