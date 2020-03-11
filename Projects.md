@@ -1,5 +1,4 @@
 ---
-title: Page
 subtitle: projects to join
 ---
 
